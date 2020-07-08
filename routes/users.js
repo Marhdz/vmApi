@@ -17,18 +17,9 @@ request(options, function (error, response, body) {
   //console.log(json.data);
 
   res.json(
-    json.data
+    json
   );
 });
-// let dataArray = [
-//   { name: "John", age: "42"},
-//   { name: "John", age: "42"},
-//   { name: "John", age: "42"}
-// ];
-//
-// res.json({
-//   data: dataArray
-// });
 
 });
 
