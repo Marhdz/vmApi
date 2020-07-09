@@ -53,7 +53,7 @@ router.post('/', function(req, res, next){
   },
   body: JSON.stringify({"data":{folder ,messages}})
   };
-  console.log(JSON.stringify({"data":{folder ,messages}}));
+  console.log(req.body);
   request(options, function (error, response) {
     if (error) throw new Error(error);
 
